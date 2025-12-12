@@ -31,7 +31,11 @@ if( true ){
     // console.log(website)
 
     two()
+ } 
+ one()  //Closure wo feature hota hai jisme ek inner function apne outer function ke variables ko yaad rakhta hai—even after the outer function has finished executing.
+
+ const addtwo = function(num){
+     return num +2;
  }
 
-
- one()
+  console.log(addtwo(5));

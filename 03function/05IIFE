@@ -1,0 +1,15 @@
+//Immediatley  Invoked Function Expressions  (IIFE)
+
+
+ function fisrt(){
+    console.log( 'good morng ')
+ }
+
+ fisrt();
+
+
+(  function fisrt(){
+    console.log( 'good morng ')
+ }) ();  // that is the way to write the function with iife (why we are using iffe 1 function ko immediatley run krvane ke liye or 2. to remove the polution of global scoped 
+
+ // 
